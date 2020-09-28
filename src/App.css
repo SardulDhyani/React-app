@@ -13,9 +13,13 @@
 .App button {
   background-color: green;
   color: white;
+  font: inherit;
+  border : 1px solid tomato;
+  padding: 8px;
+  cursor: pointer;
 }
 
-.App button :hover{
+.App button:hover{
   background-color: lightgreen;
   color : black;
 }
@@ -24,6 +28,6 @@
   background-color: red;
 }
 
-.App button.Red :hover{
+.App button.Red:hover{
   background-color: tomato;
 }
